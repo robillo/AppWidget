@@ -69,9 +69,16 @@ public class WidgetDataProvider implements RemoteViewsService.RemoteViewsFactory
     private void initData() {
         mCollections.clear();
         mCollections2.clear();
-        for (int i = 1; i <= 10; i++) {
-            mCollections.add("Word item " + i);
-            mCollections2.add("Meaning item" + i);
-        }
+
+        mCollections.add("Abate");
+        mCollections2.add("To Decrease/Reduce");
+        mCollections.add("Abdicate");
+        mCollections2.add("To Give Up a Position, Right or Power");
+        mCollections.add("Aberrant");
+        mCollections2.add("Deviating From What Is Normal");
+        mCollections.add("Abeyance");
+        mCollections2.add("Temporary Suppression or Suspension");
+        mCollections.add("Abject");
+        mCollections2.add("Miserable, Pitiful");
     }
 }
